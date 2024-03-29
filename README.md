@@ -35,8 +35,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-- [Your Name](https://github.com/yourusername)
+- Rutvik Gandhi (https://github.com/Rutvik-Gandhi)
 
-## Acknowledgements
-
-- [List of acknowledgements if any]
