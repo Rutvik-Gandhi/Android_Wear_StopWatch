@@ -1,0 +1,5 @@
+<resources>
+    <!-- Style for Application as well as it also shows name of theme and parent of theme. -->
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        </style>
+</resources>

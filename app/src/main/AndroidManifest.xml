@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Specify the necessary hardware feature: a watch -->
+
+    <uses-feature android:name="android.hardware.type.watch" />
+    <!-- Application element -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.DeviceDefault">
+
+        <!-- Activity element -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme1">
+
+            <!-- Intent filter for the activity -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" /> <!-- Specify the primary action that the activity is capable of performing -->
+
+
+                <category android:name="android.intent.category.LAUNCHER" /> <!-- Indicate whether the activity should be included in the system's list of launcher programs -->
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

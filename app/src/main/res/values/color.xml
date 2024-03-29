@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors of Application -->
+    <color name="colorPrimary">#2196F3</color> <!-- primary app color -->
+    <color name="colorPrimaryDark">#1976D2</color> <!-- primaryDark color -->
+    <color name="colorAccent">#FF5722</color> <!-- Accent used for UI elements -->
+    <color name="start">#efeff4</color> <!-- Start button color -->
+    <color name="stop">#CBC3E3</color> <!-- Stop & Reset Button color -->
+</resources>

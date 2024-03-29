@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <!-- Button 1 - Start Button -->
+  <Button
+      android:id="@+id/Startbutton"
+      android:layout_width="100dp"
+      android:layout_height="25dp"
+      android:layout_marginTop="5dp"
+      android:background="@drawable/start_button_background"
+      android:text="@string/start_button"
+      android:textSize="10sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:ignore="TextSize,TouchTargetSizeCheck" />
+
+  <!-- Button 2 - Stop Button -->
+  <Button
+      android:id="@+id/Stopbutton"
+      android:layout_width="100dp"
+      android:layout_height="25dp"
+      android:layout_marginTop="4dp"
+      android:background="@drawable/stop_button_background"
+      android:text="@string/stop_button"
+      android:textSize="10sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/Startbutton"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <!-- Button 3 - Reset Button -->
+  <Button
+      android:id="@+id/Resetbutton"
+      android:layout_width="100dp"
+      android:layout_height="25dp"
+      android:layout_marginTop="4dp"
+      android:text="@string/reset_button"
+      android:textSize="10sp"
+      android:background="@drawable/stop_button_background"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/Stopbutton"
+      tools:ignore="TouchTargetSizeCheck,TextSizeCheck" />
+
+  <!-- TextView to display the elapsed time -->
+  <TextView
+      android:id="@+id/TimeTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/time_format"
+      app:layout_constraintTop_toBottomOf="@id/Resetbutton"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      />
+</androidx.constraintlayout.widget.ConstraintLayout>
